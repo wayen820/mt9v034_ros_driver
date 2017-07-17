@@ -1,0 +1,20 @@
+image_width: 752
+image_height: 480
+camera_name: mt9v034
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [1031.191147734108, 0, 375.1373597382196, 0, 1031.941736455185, 260.4648933511615, 0, 0, 1]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [-0.587022068633521, 0.4320409286668524, -0.000865799502754684, 0.003091277556938514, 0]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1, 0, 0, 0, 1, 0, 0, 0, 1]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [906.5835571289062, 0, 377.3250586939594, 0, 0, 908.7523803710938, 261.6200611901859, 0, 0, 0, 1, 0]
